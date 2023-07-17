@@ -1,7 +1,7 @@
 
 ![Web-developer](https://github.com/GuerraS/GuerraS/blob/main/morgan-codes-wallpaper.png)
     
-## Welcome everyone to my code house  **</>**:
+## **<**Join**>** everyone to my code house  **</>**:
 
 ### Hello! I'm Edie, Software Engineer. This is my code warehouse you all are welcome.
 

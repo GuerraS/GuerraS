@@ -3,9 +3,21 @@
     
 ## **<**Join**>** everyone to my code house  **</>**:
 
-### Hello! I'm Edie, Software Engineer. This is my code warehouse you all are welcome.
+```ruby
+@GetMapping(value="/welcomeMessage")
+public ResponseEntity<String> welcomeMessage(){
+     try {
+        String welcomeMessage = new String("Hello! I'm Edie, Software Engineer. This is my code warehouse you all are welcome.");
+        return ResponseEntity.ok(welcomeMessage);
+     } catch (Exception e) {
+        logger.error(e.getLocalizedMessage(), e);
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("No message for you :p");
+     }
+}
+```
 
 
+## You cant shout me right here
 <p align="left">
     <a href="mailto:eduardooss52@gmail.com"><img src="https://github.com/deut-erium/deut-erium/blob/master/assets/gmail.svg" width="30px" alt="mail"></a> &nbsp; &nbsp;
     <a href="https://github.com/GuerraS"><img src="https://github.com/deut-erium/deut-erium/blob/master/assets/github.svg" width="30px" alt="mail"></a> &nbsp; &nbsp;
@@ -15,10 +27,10 @@
 <br />
 <br />
 
-  <img align="right" alt="GIF" src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47dnjs8y85dia3avqmeesuydvk0rgxfo60abzxwckg&ep=v1_gifs_search&rid=giphy.gif&ct=g" />
+ 
   
-### 👨‍💻 Languages and Tools
-
+## 👨‍💻 Languages and Tools
+ <img align="right" alt="GIF" src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47dnjs8y85dia3avqmeesuydvk0rgxfo60abzxwckg&ep=v1_gifs_search&rid=giphy.gif&ct=g" />
 <br />
 
   *Java*: 
